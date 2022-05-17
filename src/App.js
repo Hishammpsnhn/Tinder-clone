@@ -1,19 +1,12 @@
-
 import './App.css';
-import Article from './Article';
+import Header from './Header';
+
 
 function App() {
   return (
-    <>
-      <div className="container">
-        <div className="title">
-          <h1>Work Two</h1>
-        </div>
-        <div className="article" >
-          <Article />
-        </div>
-      </div>
-    </>
+    <div className="">
+      <Header/>
+    </div>
   );
 }
 
